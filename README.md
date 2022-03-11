@@ -30,21 +30,11 @@
     playwright install-deps
     ```
 
-## Run
 
-- To run, in the root folder, type:
 
-```shell
-python main.py <file-path>
-```
+## Required input files examples
 
-- example
 
-  ```
-  python main.py ./profiles.csv
-  ```
-
-## Required input files exemples
 
 #### .env file
 
@@ -62,4 +52,21 @@ https://www.linkedin.com/in/profile2/
 https://www.linkedin.com/in/profile3/
 https://www.linkedin.com/in/profile4/
 ```
+
+
+
+## Running
+
+- To let's start, you need a `.env` file with the credentials in the root folder (in the same folder as main.py).
+- After that, just run the main.py, passing as an argument, the absolute path of the `csv` file with the profiles.
+
+```shell
+python main.py <file-path>
+```
+
+- example
+
+  ```
+  python main.py ./profiles.csv
+  ```
 
